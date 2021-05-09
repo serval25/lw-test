@@ -1,0 +1,15 @@
+<nav mat-tab-nav-bar>
+    <span class="tab-container" *ngFor="let link of tabs; let i = index">
+      <a mat-tab-link
+        class="label-headline"
+        [routerLink]="link.link"
+      >
+        <span class="label-headline">
+          {{link.label}}
+        </span>          
+      </a>
+      <span class="label-headline-closebutton">
+        <mat-icon (click)='removeTab(i)'>close</mat-icon>
+      </span>
+    </span>
+</nav>

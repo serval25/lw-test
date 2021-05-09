@@ -1,0 +1,17 @@
+{"tabs":[
+  {
+    "label":"Inventory",
+    "link":"lwt/inventory",
+    "index":0
+  },
+  {
+    "label":"Orders",
+    "link":"lwt/orders",
+    "index":1
+  },
+  {
+    "label":"Shipping",
+    "link":"lwt/shipping",
+    "index":2
+  }
+]}

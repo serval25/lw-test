@@ -1,0 +1,17 @@
+<mat-sidenav-container class="sidebar-container">
+  <mat-icon>work</mat-icon>
+  <mat-sidenav-content>
+    <div class="sidebar">
+        <div>
+          <mat-icon>work</mat-icon>
+        </div>
+        <div
+            *ngFor="let link of tabs; let i = index"
+        >
+            <span class="sidebar-item" mat-icon-button (click)="addTab(link.name, link.link)">
+                {{link.name}}
+            </span>
+        </div>
+    </div>
+  </mat-sidenav-content>
+</mat-sidenav-container>
